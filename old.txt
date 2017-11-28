@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Online Curriculum Vitae</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- HOME -->
+<br>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Rubielyn Nachor</a>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Education
+      </a>  
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Education.html">1st Year</a>
+        <a class="dropdown-item" href="Education.html">2nd Year</a>
+        <a class="dropdown-item" href="Education.html">3rd Year</a>
+		<a class="dropdown-item" href="Education.html">4th Year</a>
+      </div>	
+    </li>
+	
+	 <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Experience
+      </a>  
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Experience.html">Work Experience</a>
+        <a class="dropdown-item" href="Experience.html">Internship</a>
+        <a class="dropdown-item" href="Experience.html">Coder Dojo</a>
+      </div>	
+    </li>
+	
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Skills
+      </a>  
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="Skills.html">Basic Skills</a>
+        <a class="dropdown-item" href="Skills.html">Compentence Skills</a>
+        <a class="dropdown-item" href="Skills.html">Expert</a>
+      </div>	
+    </li> 
+  </ul>
+
+</nav>
+<br>
+
+<div class="jumbotron text-center">
+  <h1>Welcome to my Page</h1>
+  <p>Rubielyn Nachor Online CV</p> 
+      <form class="form-inline">
+      <input type="text" class="form-control" id="srh">
+      <button type="button" class="btn btn-danger">Search</button>
+     </form>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Education</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Experience</h3>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Skills</h3>        
+      <p></p>
+      <p>.</p>
+    </div>
+  </div>
+</div>
+
+  
+  <footer class="container-fluid text-center">
+    <a href="@routes.Application.index()" class="home" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Copyright &copy; 2017 | <a href="Index.html" class="home" title="Tech Info">Institute of Technology, Tallaght</a></p>
+  </footer>
+
+</body>
+</html>
